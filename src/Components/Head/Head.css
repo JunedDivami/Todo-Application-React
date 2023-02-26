@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(17, 80, 123);
+}
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.input-button{
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: rgb(54, 171, 54);
+}
+
+.input-button:active{
+    background-color: green;
+}
